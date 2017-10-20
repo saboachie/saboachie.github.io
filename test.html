@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+@font-face {
+	font-family: Avenir Next;
+		src: url('Avenir Next.ttc');
+}
+@font-face {
+	font-family: Garamond;
+		src: url('Garamond.ttc');
+}
+.popupbox {
+	background: white;
+	width: 75%;
+	margin: 10% 12.5% 10% 12.5%;
+	border-style: solid;
+	border-color: #C3A8EE;
+	border-width: .5vw;
+	transition: all 5s ease-in-out;
+	float: left;
+}
+.close {
+	width: 2%;
+	color: #C3A8EE;
+	padding: 1% 2%;
+	font-size: 3vw;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+}
+.description {
+	width: 80%;
+	padding: 2% 4% 2% 10%;
+	text-align: center;
+	font-size: 4vw;
+	float: left;
+}
+.poptitle {
+	width: 100%;
+	color: #C3A8EE;
+	font-family: Avenir Next;
+	letter-spacing: .5vw;
+	text-align: center;
+	font-size: 4vw;
+	margin: 2% 0%;
+}
+.popworktype {
+	font-size: 1.8vw;
+	font-family: Garamond;
+	font-weight: bold;
+	color: gray;
+}
+.poptext {
+	font-family: Garamond;
+	font-size: 1.5vw;
+	padding: 2%;
+}
+.contentbox {
+	width: 80%;
+	margin: 0% 10%;
+	background-color: white;
+	float: left;
+}
+.pic {
+	width: 90%;
+	margin: 0% 5% 5% 5%;
+	background-color: orange;
+	float: left;
+}
+.workitem {
+	width: 26.67%;
+	margin: 0% 3.33% 6.66% 3.33%;
+	float: left;
+	transition: filter .3s ease-in-out;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.workitem:hover {
+	width: 26.67%;
+	margin: 0% 3.33% 6.66% 3.33%;
+	float: left;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+.workline {
+	background: linear-gradient(45deg,#C3A8EE,#F5C1EA);
+	width: 100%;
+	height: .7%;
+}
+.worktitle {
+	width: 90%;
+	margin: 5%;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(195, 168, 238, 0.5);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+</head>
+
+<body>
+		<a class="workitem" href="#work1">
+			<div class="workline"></div>
+			<div class="worktitle">PROJECT 1</div>
+			<img src="IMG_8378.jpg" alt="project" width="100%">
+		</a>
+		
+	<div id="work1" class="overlay">
+		<div class="popupbox">
+			<div class="description">
+
+				<div class="poptitle">
+					PROJECT NAME
+				</div>
+
+				<div class="popworktype">
+					Illustrator | Photoshop | Maya
+				</div>
+
+				<div class="poptext">
+					this is some shit bout the project
+				</div>
+
+			</div>
+
+			<a class="close" href="#">&times;</a>
+
+			<div class="contentbox">
+				<div class="pic">	
+					<img src="IMG_8378.jpg" alt="project" width="100%">
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
