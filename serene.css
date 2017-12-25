@@ -3,7 +3,7 @@ div {
 	display: block;
 }
 h1 {
-	font-family: Garamond;
+	font-family: Garamond, serif;
 	font-style: italic;
 	letter-spacing: .5vw;
 	color: white;
@@ -11,8 +11,8 @@ h1 {
 	text-decoration: none;
 	text-align: center;
 }
-h2 {
-	font-family: Garamond;
+h2 {,
+	font-family: Garamond, serif;
 	font-style: italic;
 	letter-spacing: .5vw;
 	color: white;
@@ -20,10 +20,17 @@ h2 {
 	text-decoration: none;
 }
 h3 {
-	font-family: Avenir Next;
+	font-family: Avenir Next, sans-serif;
 	font-size: 1.5vw;
 	letter-spacing: .5vw;
 	color: white;
+	text-align: center;
+}
+h4 {
+	font-family: Garamond, serif;
+	color: white;
+	font-size: 1vw;
+	text-decoration: none;
 	text-align: center;
 }
 body {
@@ -38,7 +45,7 @@ video {
 		src: url('Avenir Next.ttc');
 }
 @font-face {
-	font-family: Garamond;
+	font-family: Garamond, serif;
 		src: url('Garamond.ttc');
 }
 #topbox {
@@ -84,7 +91,7 @@ video {
 .words {
 	width: 70%;
 	font-size: 7vw;
-	font-family: "Avenir Next";
+	font-family: Avenir Next, sans-serif;
 	letter-spacing: 2vw;
 	line-height: 8vw;
 	color: white;
@@ -95,7 +102,7 @@ video {
 .subwords {
 	width: 70%;
 	font-size: 1vw;
-	font-family: "Avenir Next";
+	font-family: Avenir Next, sans-serif;
 	letter-spacing: .75vw;
 	color: white;
 	margin: 0% 15%;
@@ -104,7 +111,7 @@ video {
 }
 .title {
 	width: 100%;
-	font-family: Avenir Next;
+	font-family: Avenir Next, sans-serif;
 	letter-spacing: 1vw;
 	color: #C3A8EE;
 	text-align: center;
@@ -152,7 +159,7 @@ video {
 .poptitle {
 	width: 100%;
 	color: #C3A8EE;
-	font-family: Avenir Next;
+	font-family: Avenir Next, sans-serif;
 	letter-spacing: .5vw;
 	text-align: center;
 	font-size: 4vw;
@@ -160,12 +167,12 @@ video {
 }
 .popworktype {
 	font-size: 1.3vw;
-	font-family: Garamond;
+	font-family: Garamond, serif;
 	font-weight: bold;
 	color: gray;
 }
 .poptext {
-	font-family: Garamond;
+	font-family: Garamond, serif;
 	font-size: 1.3vw;
 	padding: 2% 3%;
 }
@@ -225,12 +232,12 @@ video {
 	}
 	.popworktype {
 	font-size: 2.5vw;
-	font-family: Garamond;
+	font-family: Garamond, serif;
 	font-weight: bold;
 	color: gray;
 	}
 	.poptext {
-	font-family: Garamond;
+	font-family: Garamond, serif;
 	font-size: 2.5vw;
 	padding: 2% 3%;
 	}
@@ -261,7 +268,7 @@ video {
 }
 .worktitle {
 	width: 90%;
-	font-family: Avenir Next;
+	font-family: Avenir Next, sans-serif;
 	text-decoration: none;
 	color: #C3A8EE;
 	letter-spacing: .2vw;
@@ -287,7 +294,7 @@ video {
 .contactbox {
 	background: linear-gradient(45deg,#C3A8EE,#F5C1EA);
 	width: 100%;
-	padding: 5% 0%;
+	padding: 5% 0% 1% 0%;
 	float: left;
 }
 .thumb {
