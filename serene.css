@@ -101,7 +101,7 @@ video {
 }
 .subwords {
 	width: 70%;
-	font-size: 1vw;
+	font-size: 1.2vw;
 	font-family: Avenir Next, sans-serif;
 	letter-spacing: .75vw;
 	color: white;
@@ -199,6 +199,68 @@ video {
 }
 @media (max-width: 1300px){
 	.title {
+	font-size: 4vw;
+	}
+	.words {
+	font-size: 7vw;
+	letter-spacing: 2vw;
+	line-height: 8vw;
+	}
+	.subwords {
+	font-size: 1.2vw;
+	letter-spacing: .85vw;
+	}
+	.workitem {
+	width: 44%;
+	margin: 0% 3% 6.66% 3%;
+	float: left;
+	text-decoration: none;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	z-index: 0;
+	}
+	.workitem:hover {
+	width: 44%;
+	margin: 0% 3% 6.66% 3%;
+	float: left;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+	}
+	.poptitle {
+	font-size: 4.5vw;
+	letter-spacing: .5vw;
+	}
+	.popworktype {
+	font-size: 1.8vw;
+	font-family: Garamond, serif;
+	font-weight: bold;
+	color: gray;
+	}
+	.poptext {
+	font-family: Garamond, serif;
+	font-size: 1.8vw;
+	padding: 2% 3%;
+	}
+	.contactbox {
+	font-size: 5vw;
+	}
+	h1 {
+	font-size: 2vw;
+	}
+	h2 {
+	font-size: 2vw;
+	letter-spacing: .75vw;
+	line-height: 0vw;
+	}
+	h3 {
+	font-size: 3vw;
+	}
+	h4 {
+	font-size: 2vw;
+	}
+}
+@media (max-width: 800px){
+	.title {
 	font-size: 6vw;
 	}
 	.words {
@@ -254,6 +316,9 @@ video {
 	}
 	h3 {
 	font-size: 3vw;
+	}
+	h4 {
+	font-size: 2vw;
 	}
 }
 .workitem:hover {
